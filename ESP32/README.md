@@ -1,6 +1,6 @@
 ### ESP32   
 
-> 설치   
+>> 설치   
 
 메뉴에서 File → Preference를 실행하고 Additional Boards Manager URLs 항목에 다음을 추가한다.   
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json   
@@ -34,5 +34,10 @@ void loop()
 }
 ```   
 
-> GPIO   
+>> 핀맵   
 
+[pinmap](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/08/ESP32-DOIT-DEVKIT-V1-Board-Pinout-36-GPIOs-updated.jpg?w=750&quality=100&strip=all&ssl=1) (Link)  
+
+>> 시리얼 통신   
+
+[source](../src/02_SERIAL/SERIAL.ino)
