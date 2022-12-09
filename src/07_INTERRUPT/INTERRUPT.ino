@@ -8,7 +8,7 @@ unsigned char g_u8Data = 0;
 
 void IRAM_ATTR InterruptFunction(void)
 {
-  g_u8Data = 1;
+	g_u8Data = 1;
 }
 
 void setup(void)
@@ -21,9 +21,9 @@ void setup(void)
 
 void loop(void)
 {
-  if( g_u8Data )
-  {
-    Serial.println(".");
-    g_u8Data = 0;
-  }
+	if( g_u8Data )
+	{
+		Serial.println(".");
+		g_u8Data = 0;
+	}
 }
