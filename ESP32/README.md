@@ -220,7 +220,7 @@ display.setFont();
 - drawTriangle(x1, y1, x2, y2, x3, y3, color)   
 - invertDisplay(true or false)   
 
-(예)
+(예)   
 [source](../src/11_OLEDSHAPE/OLEDSHAPE.ino)   
 
 > 이미지 표시하기   
